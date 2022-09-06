@@ -4,7 +4,10 @@ header {
 header h1 {
   font-family: "Shadows Into Light", cursive;
   font-family: 900;
-  font-size: 64px;
+  font-size: 84px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .carousel {

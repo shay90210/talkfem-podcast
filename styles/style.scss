@@ -7,7 +7,7 @@ $--color-Secondary: #feffdf;
 $--color-dark: #272343;
 $--color-light: #fafafa;
 
-$--header-1: 64px;
+$--header-1: 84px;
 $--header-2: 36px;
 $--header-3: 24px;
 
@@ -24,6 +24,9 @@ header {
         font-family: 'Shadows Into Light', cursive;
         font-family: $--fw-bolder;
         font-size: $--header-1;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        text-align: center;
     }
 }
 
