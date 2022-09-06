@@ -36,4 +36,7 @@ header {
     .nav-link {
         color: $--color-light;
     }
+    .nav-link:hover {
+        color: #272343;
+    }
 }

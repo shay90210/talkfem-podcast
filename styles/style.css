@@ -14,4 +14,7 @@ header h1 {
 }
 .nav .nav-link {
   color: #fafafa;
+}
+.nav .nav-link:hover {
+  color: #272343;
 }/*# sourceMappingURL=style.css.map */
