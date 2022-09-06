@@ -17,6 +17,11 @@ $--para-2: 14px;
 $--fw-bold: 600;
 $--fw-bolder: 900;
 
+// General Styles
+body {
+    font-family: 'Albert Sans';
+}
+
 // HEADER -------------------------------------------------------
 header {
     background-image: url(../img/Brown\ and\ Cream\ Minimalist\ Blogger\ Youtube\ Channel\ Art\ \(5\).png);
@@ -27,11 +32,21 @@ header {
         padding-top: 60px;
         padding-bottom: 40px;
         text-align: center;
-    }
+        }
+    .logoBrand {
+        border-radius: 50%;
+        padding-top: 40px;
+        margin: 0 auto;
+        display: block;
+        }
 }
 
+// Carousel ----------------------------------------------------
 .carousel {
     opacity: 85%;
+    img {
+        max-width: 100%;
+    }
 }
 
 
