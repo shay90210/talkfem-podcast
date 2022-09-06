@@ -22,6 +22,8 @@ header {
     background-image: url(../img/Brown\ and\ Cream\ Minimalist\ Blogger\ Youtube\ Channel\ Art\ \(5\).png);
     h1 {
         font-family: 'Shadows Into Light', cursive;
+        font-family: $--fw-bolder;
+        font-size: $--header-1;
     }
 }
 
