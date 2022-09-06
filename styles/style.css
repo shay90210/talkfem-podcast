@@ -21,7 +21,7 @@ header .logoBrand {
 }
 
 .carousel {
-  opacity: 85%;
+  opacity: 80%;
 }
 .carousel img {
   max-width: 100%;
@@ -52,6 +52,6 @@ footer .social-media a {
   margin-right: 40px;
   color: white;
 }
-footer .social-media a .social-media:hover {
+footer .social-media a:hover {
   color: #272343;
 }/*# sourceMappingURL=style.css.map */
