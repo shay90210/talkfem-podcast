@@ -39,4 +39,19 @@ header .logoBrand {
 
 footer {
   background: #0b8457;
+}
+footer h3 {
+  color: #fafafa;
+  padding-top: 20px;
+  font-weight: 900;
+}
+footer .nav {
+  padding-bottom: 20px;
+}
+footer .social-media a {
+  margin-right: 40px;
+  color: white;
+}
+footer .social-media a .social-media:hover {
+  color: #272343;
 }/*# sourceMappingURL=style.css.map */

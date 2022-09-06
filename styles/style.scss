@@ -64,4 +64,21 @@ header {
 // Footer -------------------------------------------------------
 footer {
     background: $--color-Primary;
+    h3 {
+        color: $--color-light;
+        padding-top: 20px;
+        font-weight: $--fw-bolder;
+    }
+    .nav {
+        padding-bottom: 20px;
+    }
+    .social-media {
+        a {
+            margin-right: 40px;
+            color: white;
+            .social-media:hover {
+                color: $--color-dark;
+            }
+        }
+    }
 }
