@@ -1,7 +1,7 @@
-// COLOR SCHEME ------------------------------------------------
+// GLOBAL STYLES ------------------------------------------------
+// font-family: 'Shadows Into Light', cursive;
+// font-family: 'Albert Sans';
 
-
-//GLOBAL STYLES ------------------------------------------------
 $--color-Primary: #0b8457;
 $--color-Secondary: #feffdf;
 $--color-dark: #272343;
@@ -17,10 +17,12 @@ $--para-2: 14px;
 $--fw-bold: 600;
 $--fw-bolder: 900;
 
-//HEADER -------------------------------------------------------
+// HEADER -------------------------------------------------------
 header {
     background-image: url(../img/Brown\ and\ Cream\ Minimalist\ Blogger\ Youtube\ Channel\ Art\ \(5\).png);
 }
+
+// Navigation Bar -----------------------------------------------
 
 nav {
     .nav-item {
