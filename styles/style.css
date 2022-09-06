@@ -37,6 +37,18 @@ header .logoBrand {
   color: #272343;
 }
 
+section h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 36px;
+}
+section img {
+  margin: 60px;
+}
+
 footer {
   background: #0b8457;
 }

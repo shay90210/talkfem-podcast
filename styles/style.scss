@@ -61,6 +61,21 @@ header {
     }
 }
 
+// Section ------------------------------------------------------
+section {
+    h3 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: $--fw-bolder;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: $--header-2;
+    }
+    img {
+        margin: 60px ;
+    }
+}
+
 // Footer -------------------------------------------------------
 footer {
     background: $--color-Primary;
