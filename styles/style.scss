@@ -43,7 +43,7 @@ header {
 
 // Carousel ----------------------------------------------------
 .carousel {
-    opacity: 80%;
+    opacity: 85%;
     img {
         max-width: 100%;
     }
@@ -74,8 +74,9 @@ footer {
     }
     .social-media {
         a {
-            margin-right: 40px;
+            margin-right: 43px;
             color: white;
+            font-size: 1.5em;
         }
         a:hover {
             color: $--color-dark;
