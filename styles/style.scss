@@ -1,21 +1,25 @@
 // GLOBAL STYLES ------------------------------------------------
 // font-family: 'Shadows Into Light', cursive;
 // font-family: 'Albert Sans';
-
-$--color-Primary: #0b8457;
-$--color-Secondary: #feffdf;
-$--color-dark: #272343;
-$--color-light: #fafafa;
-
-$--header-1: 84px;
-$--header-2: 36px;
-$--header-3: 24px;
-
-$--para-1: 18px;
-$--para-2: 14px;
-
-$--fw-bold: 600;
-$--fw-bolder: 900;
+:root {
+    $--color-Primary: #0b8457;
+    $--color-Secondary: #feffdf;
+    $--color-dark: #272343;
+    $--color-light: #fafafa;
+    
+    $--header-1: 84px;
+    $--header-2: 36px;
+    $--header-3: 24px;
+    
+    $--para-1: 18px;
+    $--para-2: 14px;
+    
+    $--fw-bold: 600;
+    $--fw-bolder: 900;
+    
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
+    0.125em 0.125em 0.25em rgba(0,0,0, .15);
+}
 
 // General Styles
 body {
@@ -62,7 +66,7 @@ header {
 }
 
 // Section ------------------------------------------------------
-section {
+.sec1 {
     h3 {
         margin-top: 60px;
         margin-bottom: 30px;

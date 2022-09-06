@@ -37,7 +37,7 @@ header .logoBrand {
   color: #272343;
 }
 
-section h3 {
+.sec1 h3 {
   margin-top: 60px;
   margin-bottom: 30px;
   text-align: center;
@@ -45,7 +45,7 @@ section h3 {
   font-family: "Shadows Into Light", cursive;
   font-size: 36px;
 }
-section img {
+.sec1 img {
   margin: 60px;
 }
 
