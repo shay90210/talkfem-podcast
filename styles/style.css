@@ -1,7 +1,17 @@
 header {
   background-image: url(../img/Brown\ and\ Cream\ Minimalist\ Blogger\ Youtube\ Channel\ Art\ \(5\).png);
 }
+header h1 {
+  font-family: "Shadows Into Light", cursive;
+}
 
 .carousel {
   opacity: 85%;
+}
+
+.nav {
+  background: #0b8457;
+}
+.nav .nav-link {
+  color: #fafafa;
 }/*# sourceMappingURL=style.css.map */

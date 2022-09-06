@@ -20,6 +20,9 @@ $--fw-bolder: 900;
 // HEADER -------------------------------------------------------
 header {
     background-image: url(../img/Brown\ and\ Cream\ Minimalist\ Blogger\ Youtube\ Channel\ Art\ \(5\).png);
+    h1 {
+        font-family: 'Shadows Into Light', cursive;
+    }
 }
 
 .carousel {
@@ -28,4 +31,9 @@ header {
 
 
 // Navigation Bar -----------------------------------------------
-
+.nav {
+    background: #0b8457;
+    .nav-link {
+        color: $--color-light;
+    }
+}
