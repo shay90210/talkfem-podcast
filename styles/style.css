@@ -18,7 +18,6 @@ header .logoBrand {
   padding-top: 40px;
   margin: 0 auto;
   display: block;
-  box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 .carousel {
@@ -33,14 +32,15 @@ header .logoBrand {
 }
 .nav .nav-link {
   color: #fafafa;
-  font-size: 24px;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .nav .nav-link:hover {
   color: #272343;
 }
 
 .sec1 h3 {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 900;
@@ -51,6 +51,9 @@ header .logoBrand {
   margin: 60px;
   box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
+.sec1 p {
+  font-weight: 600;
+}
 
 footer {
   background: #0b8457;
@@ -58,7 +61,7 @@ footer {
 footer h3 {
   color: #fafafa;
   padding-top: 20px;
-  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
 }
 footer .nav {
   padding-bottom: 20px;

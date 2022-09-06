@@ -1,6 +1,7 @@
 // GLOBAL STYLES ------------------------------------------------
 // font-family: 'Shadows Into Light', cursive;
 // font-family: 'Albert Sans';
+// font-family: 'Roboto Condensed', sans-serif;
 
     $--color-Primary: #0b8457;
     $--color-Secondary: #feffdf;
@@ -41,7 +42,6 @@ header {
         padding-top: 40px;
         margin: 0 auto;
         display: block;
-        box-shadow: $--bs;
         }
 }
 
@@ -59,7 +59,8 @@ header {
     background: #0b8457;
     .nav-link {
         color: $--color-light;
-        font-size: $--header-3;
+        font-size: $--para-1;
+        font-family: 'Roboto Condensed', sans-serif;
     }
     .nav-link:hover {
         color: #272343;
@@ -69,7 +70,7 @@ header {
 // Section ------------------------------------------------------
 .sec1 {
     h3 {
-        margin-top: 60px;
+        margin-top: 50px;
         margin-bottom: 30px;
         text-align: center;
         font-weight: $--fw-bolder;
@@ -80,6 +81,9 @@ header {
         margin: 60px;
         box-shadow: $--bs;
     }
+    p {
+        font-weight: $--fw-bold;
+    }
 }
 
 // Footer -------------------------------------------------------
@@ -88,7 +92,7 @@ footer {
     h3 {
         color: $--color-light;
         padding-top: 20px;
-        font-weight: $--fw-bolder;
+        font-family: 'Roboto Condensed', sans-serif;
     }
     .nav {
         padding-bottom: 20px;
