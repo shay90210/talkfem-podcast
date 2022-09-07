@@ -77,6 +77,12 @@ header .logoBrand {
   bottom: 275px;
   font-family: "Roboto Condensed", sans-serif;
 }
+.sec2 button:hover {
+  color: #272343;
+  background-color: #feffdf;
+  border-color: #feffdf;
+  box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
 
 footer {
   background: #0b8457;

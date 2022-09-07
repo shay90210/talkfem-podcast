@@ -106,6 +106,12 @@ header {
         bottom: 275px;
         font-family: $--ff-secondary;
     }
+    button:hover {
+        color: #272343;
+        background-color: #feffdf;
+        border-color: #feffdf;
+        box-shadow: $--bs;
+    }
 }
 
 // Footer -------------------------------------------------------
