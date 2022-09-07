@@ -107,8 +107,13 @@ header {
 footer {
     background: $--color-Primary;
     .social-media {
+        li {
+            display: block;
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
         a {
-            margin-right: 43px;
             color: white;
             font-size: 1.5em;
         }

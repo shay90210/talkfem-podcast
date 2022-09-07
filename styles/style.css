@@ -76,8 +76,13 @@ header .logoBrand {
 footer {
   background: #0b8457;
 }
+footer .social-media li {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 footer .social-media a {
-  margin-right: 43px;
   color: white;
   font-size: 1.5em;
 }
