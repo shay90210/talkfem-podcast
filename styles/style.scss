@@ -108,10 +108,9 @@ footer {
     background: $--color-Primary;
     .social-media {
         li {
-            display: block;
-            margin: auto;
             padding-top: 10px;
             padding-bottom: 10px;
+            padding-right: 20px;
         }
         a {
             color: white;

@@ -77,10 +77,9 @@ footer {
   background: #0b8457;
 }
 footer .social-media li {
-  display: block;
-  margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 20px;
 }
 footer .social-media a {
   color: white;
