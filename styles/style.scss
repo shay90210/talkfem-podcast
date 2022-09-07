@@ -1,9 +1,5 @@
 // GLOBAL STYLES ------------------------------------------------
-// font-family: 'Shadows Into Light', cursive;
-// font-family: 'Albert Sans';
-// font-family: 'Roboto Condensed', sans-serif;
-
-    $--color-Primary: #0b8457;
+     $--color-Primary: #0b8457;
     $--color-Secondary: #feffdf;
     $--color-dark: #272343;
     $--color-light: #fafafa;
@@ -11,6 +7,9 @@
     $--header-1: 84px;
     $--header-2: 36px;
     $--header-3: 24px;
+
+    $--ff-primary: 'Shadows Into Light', cursive;
+    $--ff-secondary: 'Roboto Condensed', sans-serif;
     
     $--para-1: 18px;
     $--para-2: 14px;
@@ -23,15 +22,15 @@
 
 // General Styles
 body {
-    font-family: 'Albert Sans';
+    font-family: $--ff-secondary;
 }
 
 // HEADER -------------------------------------------------------
 header {
     background-image: url(../img/Brown\ and\ Cream\ Minimalist\ Blogger\ Youtube\ Channel\ Art\ \(5\).png);
     h1 {
-        font-family: 'Shadows Into Light', cursive;
-        font-family: $--fw-bolder;
+        font-family: $--ff-primary;
+        font-weight: $--fw-bolder;
         font-size: $--header-1;
         padding-top: 60px;
         padding-bottom: 40px;
@@ -54,28 +53,27 @@ header {
         }
 }
 
-
-// Navigation Bar -----------------------------------------------
+// Main Navigation Bar ------------------------------------------
 .nav {
     background: #0b8457;
     .nav-link {
         color: $--color-light;
         font-size: $--para-1;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: $--ff-secondary;
     }
     .nav-link:hover {
         color: #272343;
     }
 }
 
-// Section -----------------------------------------------------
+// Section1 -----------------------------------------------------
 .sec1 {
     h3 {
         margin-top: 50px;
         margin-bottom: 30px;
         text-align: center;
         font-weight: $--fw-bolder;
-        font-family: 'Shadows Into Light', cursive;
+        font-family: $--ff-primary;
         font-size: $--header-2;
     }
     img {
@@ -87,17 +85,26 @@ header {
     }
 }
 
+// Section2 -----------------------------------------------------
+.sec2 {
+    background-image: url(../img/Green\ Wateroclor\ Leaf\ Linktree\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: aquamarine;
+    h2 {
+        font-family: $--ff-primary;
+        color: $--color-dark;
+        font-weight: $--fw-bolder;
+        text-align: center;
+        padding: 300px;
+        font-size: $--header-2;
+    }
+}
+
 // Footer -------------------------------------------------------
 footer {
     background: $--color-Primary;
-    h3 {
-        color: $--color-light;
-        padding-top: 20px;
-        font-family: 'Roboto Condensed', sans-serif;
-    }
-    .nav {
-        padding-bottom: 20px;
-    }
     .social-media {
         a {
             margin-right: 43px;
