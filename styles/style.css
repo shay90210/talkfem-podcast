@@ -74,8 +74,9 @@ header .logoBrand {
 }
 .sec2 button {
   position: relative;
-  left: 600px;
+  left: 580px;
   bottom: 275px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 footer {
