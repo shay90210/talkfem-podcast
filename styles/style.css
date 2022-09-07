@@ -72,6 +72,11 @@ header .logoBrand {
   padding: 300px;
   font-size: 84px;
 }
+.sec2 button {
+  position: relative;
+  left: 600px;
+  bottom: 275px;
+}
 
 footer {
   background: #0b8457;
