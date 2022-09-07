@@ -61,15 +61,16 @@ header .logoBrand {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 100%;
   background-color: aquamarine;
 }
-.sec2 h2 {
+.sec2 h1 {
   font-family: "Shadows Into Light", cursive;
   color: #272343;
   font-weight: 900;
   text-align: center;
   padding: 300px;
-  font-size: 36px;
+  font-size: 84px;
 }
 
 footer {

@@ -91,14 +91,15 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
     background-color: aquamarine;
-    h2 {
+    h1 {
         font-family: $--ff-primary;
         color: $--color-dark;
         font-weight: $--fw-bolder;
         text-align: center;
         padding: 300px;
-        font-size: $--header-2;
+        font-size: $--header-1;
     }
 }
 
